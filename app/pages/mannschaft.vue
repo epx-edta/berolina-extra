@@ -1,9 +1,14 @@
 <script setup lang="ts">
-useHead({
+useSeoMeta({
     title: 'Die Mannschaft - Berolina Extra FC',
-    meta: [
-        { name: 'description', content: 'Lerne die Spieler von Berolina Extra FC kennen.' }
-    ]
+    ogTitle: 'Die Mannschaft | Berolina Extra FC',
+    description: 'Lerne die Spieler und das Team hinter Berolina Extra FC kennen. Unsere Stars von morgen.',
+    ogDescription: 'Ein Team. Ein Kiez. Ein Ziel. Trete unserer Mannschaft bei.',
+    ogImage: '/images/team.png',
+});
+
+useHead({
+    link: [{ rel: 'canonical', href: 'https://berolina-extra.de/mannschaft' }]
 });
 
 const players = [

@@ -1,9 +1,15 @@
 <script setup lang="ts">
-useHead({
+useSeoMeta({
   title: 'Berolina Extra FC - Dein Verein in Berlin',
-  meta: [
-    { name: 'description', content: 'Der coolste Jugendfußballverein in Berlin Mitte. Dynamisch, athletisch, unaufhaltsam.' }
-  ]
+  ogTitle: 'Berolina Extra FC - Home',
+  description: 'Der coolste Jugendfußballverein in Berlin Mitte. Dynamisch, athletisch, unaufhaltsam.',
+  ogDescription: 'Erlebe Dynamik und Leidenschaft bei Berolina Extra FC.',
+  ogImage: '/images/og-image.png',
+  twitterCard: 'summary_large_image',
+});
+
+useHead({
+  link: [{ rel: 'canonical', href: 'https://berolina-extra.de/' }]
 });
 
 const highlights = [

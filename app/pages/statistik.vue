@@ -1,9 +1,14 @@
 <script setup lang="ts">
-useHead({
+useSeoMeta({
     title: 'Statistik - Berolina Extra FC',
-    meta: [
-        { name: 'description', content: 'Statistiken und Tabellen von Berolina Extra FC.' }
-    ]
+    ogTitle: 'Power in Numbers | Berolina Extra FC Stats',
+    description: 'Statistiken lügen nicht. Sieh dir die beeindruckende Leistung von Berolina Extra FC an.',
+    ogDescription: 'Tabelle, Top-Scorer und Team-Performance von Berolina Extra FC.',
+    ogImage: '/images/og-image.png',
+});
+
+useHead({
+    link: [{ rel: 'canonical', href: 'https://berolina-extra.de/statistik' }]
 });
 
 const topScorers = [

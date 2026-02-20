@@ -14,9 +14,30 @@ export default defineNuxtConfig({
 	},
 	app: {
 		head: {
-			title: 'Berolina Extra',
+			title: 'Berolina Extra FC - Dein Verein in Berlin',
+			htmlAttrs: {
+				lang: 'de'
+			},
 			meta: [
-				{ name: 'description', content: 'Berolina Extra Website' }
+				{ charset: 'utf-8' },
+				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+				{ name: 'description', content: 'Der coolste Jugendfußballverein in Berlin Mitte. Dynamisch, athletisch, unaufhaltsam.' },
+				{ name: 'format-detection', content: 'telephone=no' },
+				// Open Graph / Facebook
+				{ property: 'og:type', content: 'website' },
+				{ property: 'og:url', content: 'https://berolina-extra.de/' },
+				{ property: 'og:title', content: 'Berolina Extra FC - Dein Verein in Berlin' },
+				{ property: 'og:description', content: 'Dynamischer Jugendfußball aus Berlin Mitte. Werde Teil der Legende.' },
+				{ property: 'og:image', content: '/images/og-image.png' },
+				// Twitter
+				{ property: 'twitter:card', content: 'summary_large_image' },
+				{ property: 'twitter:url', content: 'https://berolina-extra.de/' },
+				{ property: 'twitter:title', content: 'Berolina Extra FC - Dein Verein in Berlin' },
+				{ property: 'twitter:description', content: 'Dynamischer Jugendfußball aus Berlin Mitte. Werde Teil der Legende.' },
+				{ property: 'twitter:image', content: '/images/og-image.png' }
+			],
+			link: [
+				{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
 			]
 		}
 	},

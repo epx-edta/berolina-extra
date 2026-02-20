@@ -1,9 +1,14 @@
 <script setup lang="ts">
-useHead({
+useSeoMeta({
   title: 'Über Uns - Berolina Extra FC',
-  meta: [
-    { name: 'description', content: 'Die Geschichte und Vision von Berolina Extra FC.' }
-  ]
+  ogTitle: 'Unsere Story | Berolina Extra FC',
+  description: 'Vom Asphalt auf den Rasen. Lerne die Geschichte hinter Berolina Extra FC kennen.',
+  ogDescription: 'Leidenschaft, Community, Stolz. Was uns antreibt.',
+  ogImage: '/images/og-image.png',
+});
+
+useHead({
+  link: [{ rel: 'canonical', href: 'https://berolina-extra.de/ueber-uns' }]
 });
 </script>
 

@@ -1,9 +1,14 @@
 <script setup lang="ts">
-useHead({
+useSeoMeta({
     title: 'Spielplan - Berolina Extra FC',
-    meta: [
-        { name: 'description', content: 'Die nächsten Spiele von Berolina Extra FC.' }
-    ]
+    ogTitle: 'Spielplan & Ergebnisse | Berolina Extra FC',
+    description: 'Verpasse kein Spiel! Hier findest du alle Termine und Ergebnisse von Berolina Extra FC.',
+    ogDescription: 'Der aktuelle Spielplan von Berolina Extra FC. Jetzt Tickets sichern!',
+    ogImage: '/images/og-image.png',
+});
+
+useHead({
+    link: [{ rel: 'canonical', href: 'https://berolina-extra.de/spielplan' }]
 });
 
 const matches = [
