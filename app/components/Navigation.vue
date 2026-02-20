@@ -27,7 +27,7 @@ const navItems = [
         <!-- Logo -->
         <NuxtLink to="/"
                   class="text-xl font-bold text-primary-700 hover:text-primary-800 transition-colors dark:text-primary-500 dark:hover:text-primary-400">
-          Nuxt Showcase 003
+                  Berolina Extra
         </NuxtLink>
 
         <!-- Desktop Navigation -->
