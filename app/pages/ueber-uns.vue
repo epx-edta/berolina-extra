@@ -5,6 +5,9 @@ useSeoMeta({
   description: 'Vom Asphalt auf den Rasen. Lerne die Geschichte hinter Berolina Extra FC kennen.',
   ogDescription: 'Leidenschaft, Community, Stolz. Was uns antreibt.',
   ogImage: 'https://berolina-extra.de/images/og-image.png',
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogSiteName: 'Berolina Extra FC',
 });
 
 useHead({
