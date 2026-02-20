@@ -5,7 +5,7 @@ const env = config.public.nodeEnv;
 const cacheDriver = config.public.cacheDriver;
 
 useHead({
-  title: 'Nuxt 4 Showcase',
+  title: 'Berolina Extra',
   meta: [
     { name: 'description', content: 'A showcase of Nuxt 4 features and best practices' }
   ]
