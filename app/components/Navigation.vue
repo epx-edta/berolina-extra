@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { HomeIcon, Bars3Icon, XMarkIcon, SunIcon, MoonIcon, InformationCircleIcon } from '@heroicons/vue/24/outline'
+import { HomeIcon, UserIcon, Bars3Icon, XMarkIcon, SunIcon, MoonIcon, ClipboardDocumentListIcon, InformationCircleIcon, BoltIcon } from '@heroicons/vue/24/outline'
 
 const mobileMenuOpen = ref(false)
 const colorMode = useColorMode()
@@ -11,7 +11,10 @@ const toggleColorMode = () => {
 
 const navItems = [
   { name: 'Home', path: '/', icon: HomeIcon },
-  { name: 'About', path: '/about', icon: InformationCircleIcon },
+  { name: 'Mannschaft', path: '/mannschaft', icon: UserIcon },
+  { name: 'Spielplan', path: '/spielplan', icon: ClipboardDocumentListIcon },
+  { name: 'Statistik', path: '/statistik', icon: BoltIcon },
+  { name: 'Über Uns', path: '/ueber-uns', icon: InformationCircleIcon },
 ]
 </script>
 
