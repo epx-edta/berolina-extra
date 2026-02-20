@@ -4,7 +4,7 @@ useSeoMeta({
     ogTitle: 'Spielplan & Ergebnisse | Berolina Extra FC',
     description: 'Verpasse kein Spiel! Hier findest du alle Termine und Ergebnisse von Berolina Extra FC.',
     ogDescription: 'Der aktuelle Spielplan von Berolina Extra FC. Jetzt Tickets sichern!',
-    ogImage: '/images/og-image.png',
+    ogImage: 'https://berolina-extra.de/images/og-image.png',
 });
 
 useHead({
@@ -107,7 +107,7 @@ const results = [
                                 class="bg-gray-50 dark:bg-gray-900 p-4 border-l-4 border-primary-500">
                                 <div class="flex justify-between items-center mb-1">
                                     <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">{{ res.date
-                                    }}</span>
+                                        }}</span>
                                     <span class="text-sm font-black italic uppercase text-primary-500">Win</span>
                                 </div>
                                 <div class="flex justify-between items-center">

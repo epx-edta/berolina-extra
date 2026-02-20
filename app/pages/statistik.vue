@@ -4,7 +4,7 @@ useSeoMeta({
     ogTitle: 'Power in Numbers | Berolina Extra FC Stats',
     description: 'Statistiken lügen nicht. Sieh dir die beeindruckende Leistung von Berolina Extra FC an.',
     ogDescription: 'Tabelle, Top-Scorer und Team-Performance von Berolina Extra FC.',
-    ogImage: '/images/og-image.png',
+    ogImage: 'https://berolina-extra.de/images/og-image.png',
 });
 
 useHead({
@@ -113,7 +113,7 @@ const leagueTable = [
                             <div v-for="stat in teamStats" :key="stat.label"
                                 class="flex justify-between items-center border-b border-white/10 pb-4">
                                 <span class="uppercase tracking-widest text-xs font-bold text-gray-400">{{ stat.label
-                                    }}</span>
+                                }}</span>
                                 <span class="text-2xl font-black italic text-primary-400">{{ stat.value }}</span>
                             </div>
                         </div>

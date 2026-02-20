@@ -4,7 +4,7 @@ useSeoMeta({
   ogTitle: 'Berolina Extra FC - Home',
   description: 'Der coolste Jugendfußballverein in Berlin Mitte. Dynamisch, athletisch, unaufhaltsam.',
   ogDescription: 'Erlebe Dynamik und Leidenschaft bei Berolina Extra FC.',
-  ogImage: '/images/og-image.png',
+  ogImage: 'https://berolina-extra.de/images/og-image.png',
   twitterCard: 'summary_large_image',
 });
 

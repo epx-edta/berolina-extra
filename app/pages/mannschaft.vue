@@ -4,7 +4,7 @@ useSeoMeta({
     ogTitle: 'Die Mannschaft | Berolina Extra FC',
     description: 'Lerne die Spieler und das Team hinter Berolina Extra FC kennen. Unsere Stars von morgen.',
     ogDescription: 'Ein Team. Ein Kiez. Ein Ziel. Trete unserer Mannschaft bei.',
-    ogImage: '/images/team.png',
+    ogImage: 'https://berolina-extra.de/images/team.png',
 });
 
 useHead({

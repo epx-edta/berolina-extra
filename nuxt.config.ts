@@ -28,13 +28,13 @@ export default defineNuxtConfig({
 				{ property: 'og:url', content: 'https://berolina-extra.de/' },
 				{ property: 'og:title', content: 'Berolina Extra FC - Dein Verein in Berlin' },
 				{ property: 'og:description', content: 'Dynamischer Jugendfußball aus Berlin Mitte. Werde Teil der Legende.' },
-				{ property: 'og:image', content: '/images/og-image.png' },
+				{ property: 'og:image', content: 'https://berolina-extra.de/images/og-image.png' },
 				// Twitter
 				{ property: 'twitter:card', content: 'summary_large_image' },
 				{ property: 'twitter:url', content: 'https://berolina-extra.de/' },
 				{ property: 'twitter:title', content: 'Berolina Extra FC - Dein Verein in Berlin' },
 				{ property: 'twitter:description', content: 'Dynamischer Jugendfußball aus Berlin Mitte. Werde Teil der Legende.' },
-				{ property: 'twitter:image', content: '/images/og-image.png' }
+				{ property: 'twitter:image', content: 'https://berolina-extra.de/images/og-image.png' }
 			],
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
